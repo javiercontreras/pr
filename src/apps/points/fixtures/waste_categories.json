@@ -1,0 +1,112 @@
+[
+  {
+    "model": "points.wastecategory",
+    "pk": 1,
+    "fields": {
+      "name": "Papel",
+      "code": "PAP",
+      "description": "Papel limpio y seco: diarios, revistas, hojas, cuadernos.",
+      "color_hex": "#0055A4"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 2,
+    "fields": {
+      "name": "Cartón",
+      "code": "CAR",
+      "description": "Cartón limpio y seco: cajas, embalajes, cartón corrugado.",
+      "color_hex": "#0077CC"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 3,
+    "fields": {
+      "name": "Plásticos",
+      "code": "PLAS",
+      "description": "Envases plásticos rígidos y flexibles.",
+      "color_hex": "#FFD700"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 4,
+    "fields": {
+      "name": "Vidrios",
+      "code": "VID",
+      "description": "Botellas, frascos y envases de vidrio.",
+      "color_hex": "#00843D"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 5,
+    "fields": {
+      "name": "Metales",
+      "code": "MET",
+      "description": "Latas de aluminio y hojalata.",
+      "color_hex": "#B2B2B2"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 6,
+    "fields": {
+      "name": "Orgánicos",
+      "code": "ORG",
+      "description": "Restos vegetales, frutas y podas.",
+      "color_hex": "#634439"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 7,
+    "fields": {
+      "name": "Peligrosos",
+      "code": "PEL",
+      "description": "Residuos con riesgo químico o biológico.",
+      "color_hex": "#ED1C24"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 8,
+    "fields": {
+      "name": "Electrónicos",
+      "code": "RAEE",
+      "description": "Aparatos eléctricos y electrónicos.",
+      "color_hex": "#800020"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 9,
+    "fields": {
+      "name": "No Reciclables",
+      "code": "RECH",
+      "description": "Basura que no puede ser valorizada.",
+      "color_hex": "#404040"
+    }
+  },
+  {
+    "model": "points.wastecategory",
+    "pk": 10,
+    "fields": {
+      "name": "Especiales",
+      "code": "ESP",
+      "description": "Residuos que requieren manejo especial: neumáticos, aceites, medicamentos, pilas y baterías.",
+      "color_hex": "#FF6600"
+    }
+  },
+{
+    "model": "points.wastecategory",
+    "pk": 11,
+    "fields": {
+      "name": "Cartón para Bebidas",
+      "code": "TETPAK",
+      "description": "Envases Tetra Pak y similares: jugos, leche, vino. Material compuesto que requiere acopio específico.",
+      "color_hex": "#D4A96A"
+    }
+  }
+]

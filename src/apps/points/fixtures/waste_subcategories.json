@@ -1,0 +1,86 @@
+[
+  {
+    "model": "points.wastesubcategory",
+    "pk": 1,
+    "fields": {
+      "category": 3,
+      "name": "PET Transparente",
+      "code": "PLAS-PETT",
+      "description": "Botellas PET transparentes de bebidas y agua.",
+      "is_rep": true,
+      "icon_name": "water_drop",
+      "icon_color": "#FFD700",
+      "material_code": "1"
+    }
+  },
+  {
+    "model": "points.wastesubcategory",
+    "pk": 2,
+    "fields": {
+      "category": 3,
+      "name": "PET Color",
+      "code": "PLAS-PETC",
+      "description": "Botellas PET de colores: aceite, detergente.",
+      "is_rep": true,
+      "icon_name": "water_drop",
+      "icon_color": "#FFA000",
+      "material_code": "1"
+    }
+  },
+  {
+    "model": "points.wastesubcategory",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "HDPE",
+      "code": "PLAS-HDPE",
+      "description": "Envases de shampoo, detergente y productos de limpieza.",
+      "is_rep": true,
+      "icon_name": "soap",
+      "icon_color": "#FFD700",
+      "material_code": "2"
+    }
+  },
+  {
+    "model": "points.wastesubcategory",
+    "pk": 4,
+    "fields": {
+      "category": 3,
+      "name": "Plástico Flexible",
+      "code": "PLAS-FLEX",
+      "description": "Bolsas, films y envases plásticos flexibles.",
+      "is_rep": false,
+      "icon_name": "shopping_bag",
+      "icon_color": "#FFD700",
+      "material_code": "4"
+    }
+  },
+  {
+    "model": "points.wastesubcategory",
+    "pk": 5,
+    "fields": {
+      "category": 4,
+      "name": "Vidrio Transparente",
+      "code": "VID-TRA",
+      "description": "Botellas y frascos de vidrio transparente.",
+      "is_rep": false,
+      "icon_name": "wine_bar",
+      "icon_color": "#00843D",
+      "material_code": "GL"
+    }
+  },
+  {
+    "model": "points.wastesubcategory",
+    "pk": 6,
+    "fields": {
+      "category": 4,
+      "name": "Vidrio Color",
+      "code": "VID-COL",
+      "description": "Botellas y frascos de vidrio de color.",
+      "is_rep": false,
+      "icon_name": "wine_bar",
+      "icon_color": "#005727",
+      "material_code": "GL"
+    }
+  }
+]

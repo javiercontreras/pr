@@ -26,8 +26,8 @@ class Company(models.Model):
     logo = models.ImageField(upload_to="companies/logos/", null=True, blank=True, verbose_name="Logo")
     is_active = models.BooleanField(default=True, verbose_name="Activa")
 
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(auto_now_add=True, null=True)
+    updated_at = models.DateTimeField(auto_now=True, null=True)
 
     class Meta:
         verbose_name = "Empresa"

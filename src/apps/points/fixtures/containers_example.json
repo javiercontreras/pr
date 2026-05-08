@@ -1,0 +1,107 @@
+[
+  {
+    "model": "points.container",
+    "pk": 1,
+    "fields": {
+      "recycling_point": 1,
+      "name": "Contenedor PET",
+      "container_type": "standard",
+      "status": "active",
+      "required_state": "Botellas limpias, secas y aplastadas",
+      "capacity_liters": 240,
+      "fill_level": 45,
+      "last_collection": null,
+      "waste_subcategories": [1, 2]
+    }
+  },
+  {
+    "model": "points.container",
+    "pk": 2,
+    "fields": {
+      "recycling_point": 1,
+      "name": "Contenedor Vidrio",
+      "container_type": "standard",
+      "status": "active",
+      "required_state": "Botellas y frascos sin tapa ni líquido",
+      "capacity_liters": 240,
+      "fill_level": 70,
+      "last_collection": null,
+      "waste_subcategories": [5, 6]
+    }
+  },
+  {
+    "model": "points.container",
+    "pk": 3,
+    "fields": {
+      "recycling_point": 1,
+      "name": "Contenedor HDPE y Flexible",
+      "container_type": "standard",
+      "status": "active",
+      "required_state": "Envases limpios y secos",
+      "capacity_liters": 120,
+      "fill_level": 20,
+      "last_collection": null,
+      "waste_subcategories": [3, 4]
+    }
+  },
+  {
+    "model": "points.container",
+    "pk": 4,
+    "fields": {
+      "recycling_point": 2,
+      "name": "Contenedor PET Transparente",
+      "container_type": "standard",
+      "status": "active",
+      "required_state": "Botellas limpias y aplastadas",
+      "capacity_liters": 240,
+      "fill_level": 85,
+      "last_collection": null,
+      "waste_subcategories": [1]
+    }
+  },
+  {
+    "model": "points.container",
+    "pk": 5,
+    "fields": {
+      "recycling_point": 2,
+      "name": "Contenedor Vidrio Transparente",
+      "container_type": "standard",
+      "status": "maintenance",
+      "required_state": "Vidrio sin tapas ni líquido",
+      "capacity_liters": 240,
+      "fill_level": 0,
+      "last_collection": null,
+      "waste_subcategories": [5]
+    }
+  },
+  {
+    "model": "points.container",
+    "pk": 6,
+    "fields": {
+      "recycling_point": 3,
+      "name": "Contenedor Multiplástico",
+      "container_type": "standard",
+      "status": "active",
+      "required_state": "Envases plásticos limpios y secos",
+      "capacity_liters": 360,
+      "fill_level": 55,
+      "last_collection": null,
+      "waste_subcategories": [1, 2, 3, 4]
+    }
+  },
+  {
+    "model": "points.container",
+    "pk": 7,
+    "fields": {
+      "recycling_point": 3,
+      "name": "Contenedor Vidrio Mixto",
+      "container_type": "standard",
+      "status": "active",
+      "required_state": "Botellas y frascos sin tapa",
+      "capacity_liters": 240,
+      "fill_level": 30,
+      "last_collection": null,
+      "waste_subcategories": [5, 6]
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "model": "points.recyclingpoint",
+    "pk": 1,
+    "fields": {
+      "company": 1,
+      "name": "Punto Limpio Plaza de Armas",
+      "address": "Plaza de Armas, La Serena, Coquimbo",
+      "location": "POINT(-71.2536 -29.9027)",
+      "schedule": "Lunes a Viernes 09:00 - 18:00, Sábado 09:00 - 13:00",
+      "image": null,
+      "status": "active",
+      "notes": ""
+    }
+  },
+  {
+    "model": "points.recyclingpoint",
+    "pk": 2,
+    "fields": {
+      "company": 1,
+      "name": "Punto Limpio Mercado La Recova",
+      "address": "Cienfuegos 845, La Serena, Coquimbo",
+      "location": "POINT(-71.2512 -29.9041)",
+      "schedule": "Lunes a Sábado 08:00 - 17:00",
+      "image": null,
+      "status": "active",
+      "notes": ""
+    }
+  },
+  {
+    "model": "points.recyclingpoint",
+    "pk": 3,
+    "fields": {
+      "company": 2,
+      "name": "Punto Limpio Correo Central",
+      "address": "Prat 401, La Serena, Coquimbo",
+      "location": "POINT(-71.2548 -29.9033)",
+      "schedule": "Lunes a Viernes 08:30 - 17:30",
+      "image": null,
+      "status": "active",
+      "notes": ""
+    }
+  }
+]

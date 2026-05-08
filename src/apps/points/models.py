@@ -101,8 +101,8 @@ class RecyclingPoint(gis_models.Model):
     )
     notes = models.TextField(blank=True, verbose_name="Notas internas")
 
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(auto_now_add=True, null=True)
+    updated_at = models.DateTimeField(auto_now=True, null=True)
 
     class Meta:
         verbose_name = "Punto de reciclaje"
@@ -148,12 +148,10 @@ class Container(models.Model):
         verbose_name="Punto de reciclaje"
     )
     
-    category = models.ForeignKey(
-        'WasteCategory', 
-        on_delete=models.PROTECT,
-        null=True,
-        verbose_name="Categoría de residuo"
-
+    waste_subcategories = models.ManyToManyField(
+    'WasteSubcategory',
+    blank=True,
+    verbose_name="Subcategorías de residuo",
     )
 
     # Atributos
@@ -171,7 +169,8 @@ class Container(models.Model):
     )
 
     last_fill_update = models.DateTimeField(
-        auto_now=True, # Se actualiza cada vez que guardas el modelo
+        auto_now=True,
+        null=True,
         verbose_name="Última actualización de nivel"
     )
     container_type = models.CharField(
@@ -212,4 +211,4 @@ class Container(models.Model):
         verbose_name_plural = "Contenedores"
 
     def __str__(self):
-        return self.name  # 
+     return self.name or f"Contenedor {self.pk}"
